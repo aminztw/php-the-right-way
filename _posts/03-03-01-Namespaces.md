@@ -3,29 +3,24 @@ isChild: true
 anchor:  namespaces
 ---
 
-## Namespaces {#namespaces_title}
+## 命名空間 {#namespaces_title}
 
-As mentioned above, the PHP community has a lot of developers creating lots of code. This means that one library's PHP
-code might use the same class name as another. When both libraries are used in the same namespace, they collide
-and cause trouble.
+如前所述，PHP 社群裡許多開發者已經開發了大量的程式碼。這意味著一個函式庫的的 PHP 程式碼可能使用了另外一個函式庫中相同的類別名稱。如果他們使用同一個命名空間，那將會產生衝突導致異常。
 
-_Namespaces_ solve this problem. As described in the PHP reference manual, namespaces may be compared to operating
-system directories that _namespace_ files; two files with the same name may co-exist in separate directories. Likewise,
-two PHP classes with the same name may co-exist in separate PHP namespaces. It's as simple as that.
+_命名空間_ 解決了這個問題。如 PHP 手冊裡所描述，命名空間類似作業系統中的目錄，兩個同名的文件可以共存於不同的目錄下。同理兩個同名的 PHP 類別可以在不同的 PHP 命名空間下共存，就這麼簡單。
 
-It is important for you to namespace your code so that it may be used by other developers without fear of colliding
-with other libraries.
+因此把你的程式碼放在你的命名空間下就非常重要，避免其他開發者擔心與第三方函式庫衝突。
 
 One recommended way to use namespaces is outlined in [PSR-4][psr4], which aims to provide a standard file, class and
 namespace convention to allow plug-and-play code.
 
-In October 2014 the PHP-FIG deprecated the previous autoloading standard: [PSR-0][psr0]. Both PSR-0 and PSR-4 are still perfectly usable.  The latter requires PHP 5.3, so many PHP 5.2-only projects implement PSR-0.
+2014 年 10 月，PHP-FIG 稟棄了舊的自動加載標準：[PSR-0][psr0]。目前兩個 PSR-0 和 PSR-4 都能使用，但後者要求 PHP 5.3 以上的版本，所以許多 PHP 5.2 專案都還是使用 PSR-0。
 
-If you're going to use an autoloader standard for a new application or package, look into PSR-4.
+如果你在新應用程式或套件中使用自動加載標準，應優先考慮使用 PSR-4。
 
-* [Read about Namespaces][namespaces]
-* [Read about PSR-0][psr0]
-* [Read about PSR-4][psr4]
+* [閱讀命名空間][namespaces]
+* [閱讀 PSR-0][psr0]
+* [閱讀 PSR-4][psr4]
 
 
 [namespaces]: http://php.net/language.namespaces
