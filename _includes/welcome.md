@@ -46,7 +46,7 @@ The most recent version of _PHP: The Right Way_ is also available in PDF, EPUB a
 
 幫助我們讓本網站作為 PHP 新手的最佳資源！[在 GitHub 上貢獻][2]
 
-## Spread the Word!
+## 口耳相傳
 
 您可以在網站上放置 PHP 之道 的廣告橫幅。謝謝您的支持，並讓 PHP 新手能夠知道哪裡可以找到好的資訊！
 
